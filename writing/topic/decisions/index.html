@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Writing · Sandeep Pawar</title>
+<meta name="robots" content="noindex, nofollow">
+<script>
+const realFetch = window.fetch;
+window.fetch = (url, options) => String(url).includes("/api/method/")
+	? Promise.resolve(new Response(JSON.stringify({_server_messages: JSON.stringify([JSON.stringify({
+		message: "This is a review copy, so forms are switched off."})])}), {status: 400}))
+	: realFetch(url, options);
+</script>
+
+	<meta name="description" content="Everything published on this site, newest first.">
+	<link rel="canonical" href="https://asifmulani1.github.io/sandeep-pawar-site-preview/writing">
+	<meta property="og:site_name" content="Sandeep Pawar">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Writing">
+	<meta property="og:description" content="Everything published on this site, newest first.">
+	<meta property="og:url" content="https://asifmulani1.github.io/sandeep-pawar-site-preview/writing">
+	<meta property="og:image" content="https://asifmulani1.github.io/sandeep-pawar-site-preview/assets/sp_site/images/share-default.png">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Writing">
+	<meta name="twitter:description" content="Everything published on this site, newest first.">
+	<meta name="twitter:image" content="https://asifmulani1.github.io/sandeep-pawar-site-preview/assets/sp_site/images/share-default.png">
+	<meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+	<meta name="theme-color" content="#181715" media="(prefers-color-scheme: dark)">
+	<link rel="alternate" type="application/rss+xml" title="Sandeep Pawar" href="/sandeep-pawar-site-preview/rss.xml">
+	<link rel="icon" href="/sandeep-pawar-site-preview/assets/sp_site/images/favicon.svg?v=1794989813" type="image/svg+xml">
+	<link rel="preload" href="/sandeep-pawar-site-preview/assets/sp_site/fonts/newsreader-roman.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="/sandeep-pawar-site-preview/assets/sp_site/fonts/source-sans-3.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="stylesheet" href="/sandeep-pawar-site-preview/assets/sp_site/css/site.css?v=1795011490">
+	<script>try{var t=localStorage.getItem("theme");if(t&&t!=="auto")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+	<script src="/sandeep-pawar-site-preview/assets/sp_site/js/site.js?v=1794989798" defer></script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+	<header class="site-header">
+	<div class="wrap">
+		<a class="site-name" href="/sandeep-pawar-site-preview/">Sandeep Pawar</a>
+		<nav class="site-nav" aria-label="Main">
+			<a href="/sandeep-pawar-site-preview/writing" aria-current="page">Writing</a>
+			<a href="/sandeep-pawar-site-preview/about">About</a>
+			<a href="/sandeep-pawar-site-preview/ask">Ask</a>
+		</nav>
+	</div>
+</header>
+	<main id="main">
+		
+<div class="wrap">
+	<header class="page-head">
+		<h1>Writing</h1>
+		<p>Everything published here, newest first.</p>
+	</header>
+	<nav class="filters" aria-label="Filter by category">
+		<a href="/sandeep-pawar-site-preview/writing">All</a>
+		<a href="/sandeep-pawar-site-preview/writing/topic/decisions" aria-current="page">Decisions</a>
+		<a href="/sandeep-pawar-site-preview/writing/topic/first-jobs">First jobs</a>
+		<a href="/sandeep-pawar-site-preview/writing/topic/working-well">Working well</a>
+	</nav>
+	<ul class="post-list writing-list"><li>
+	<a class="post-row has-thumb" href="/sandeep-pawar-site-preview/writing/sample-choosing-between-two-job-offers">
+		<h3>Sample: Choosing between two job offers</h3><p>Salary is the easiest thing to compare and usually the least important difference between two offers early in a career.</p>
+		<span class="meta"><span>11 Nov 2026</span><span>1 min read</span></span>
+		<img class="thumb" src="/sandeep-pawar-site-preview/assets/sp_site/images/samples/two-offers.jpg" alt="" width="144" height="96" loading="lazy" decoding="async">
+	</a>
+</li>
+	</ul>
+</div>
+
+	</main>
+	<footer class="site-footer">
+	<div class="wrap">
+		<p>© 2026 Sandeep Pawar</p>
+		<nav aria-label="Elsewhere"><a href="https://www.linkedin.com/" rel="me">LinkedIn</a><a href="https://x.com/" rel="me">X</a><a href="https://www.instagram.com/" rel="me">Instagram</a>
+			<a href="/sandeep-pawar-site-preview/rss.xml">RSS</a>
+			<button type="button" class="theme-toggle" data-theme-toggle hidden>Theme: auto</button>
+		</nav>
+	</div>
+</footer>
+</body>
+</html>
